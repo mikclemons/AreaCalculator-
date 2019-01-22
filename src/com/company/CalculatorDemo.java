@@ -8,9 +8,10 @@ public class CalculatorDemo {
 
         calculator.setWidth(10);
         calculator.setHeight(4);
+        calculator.setShape("triangle");
 
-       int rectArea =  calculator.calculateArea(calculator.getWidth(), calculator.getHeight());
+       int shapeArea =  calculator.calculateArea(calculator.getShape(), calculator.getWidth(), calculator.getHeight());
 
-       System.out.println(rectArea);
+       System.out.println(shapeArea);
     }
 }
