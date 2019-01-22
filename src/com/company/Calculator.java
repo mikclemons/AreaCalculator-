@@ -6,6 +6,14 @@ public class Calculator {
     private int height;
     private String shape;
 
+
+    public void setShape(String shapeType){
+        shape = shapeType;
+    }
+
+    public String getShape(){
+        return shape; 
+    }
     public void setWidth(int shapeWidth) {
         width = shapeWidth;
     }
@@ -22,12 +30,13 @@ public class Calculator {
         return height;
     }
 
+
     public int calculateArea(String shape, int width, int height) {
         if (shape.equals("rectangle")) {
             int area = width * height;
             return area;
         } else if(shape.equals("triangle")){
-            int area = (width * height)/2; 
+            int area = (width * height)/2;
             return area;
         }
 
