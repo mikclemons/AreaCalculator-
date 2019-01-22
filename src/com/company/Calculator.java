@@ -18,8 +18,12 @@ public class Calculator {
     }
 
     public int getHeight(){
-        return height; 
+        return height;
     }
 
+    public int calculateArea(int width, int height){
+        int area = width * height;
+        return area;
+    }
 
 }
