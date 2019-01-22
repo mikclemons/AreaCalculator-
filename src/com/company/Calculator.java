@@ -10,7 +10,16 @@ public class Calculator {
     }
 
     public int getWidth(){
-        return width; 
+        return width;
     }
+
+    public void setHeight(int shapeHeight){
+        height = shapeHeight;
+    }
+
+    public int getHeight(){
+        return height; 
+    }
+
 
 }
