@@ -4,6 +4,7 @@ public class Calculator {
 
     private int width;
     private int height;
+    private String shape; 
 
     public void setWidth(int shapeWidth){
         width = shapeWidth;
