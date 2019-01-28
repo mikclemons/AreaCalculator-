@@ -8,10 +8,12 @@ public class Calculator {
 
 
     public void setShape(String shapeType){
+
         shape = shapeType;
     }
 
     public String getShape(){
+
         return shape;
     }
     public void setWidth(int shapeWidth) {
